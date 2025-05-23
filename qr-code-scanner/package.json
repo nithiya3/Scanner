@@ -42,5 +42,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  }
+  },
+  "homepage": "https://nithiya3.github.io/QrScanner"
+
 }
