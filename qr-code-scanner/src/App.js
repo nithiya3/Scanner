@@ -6,7 +6,7 @@ import './App.css';
 const App = () => {
   const [scanResult, setScanResult] = useState('');
   const [showPopup, setShowPopup] = useState(false);
-  const [scannerKey, setScannerKey] = useState(0); // used to re-initialize scanner
+  const [scannerKey, setScannerKey] = useState(0); 
 
   const handleScan = (result) => {
     if (result) {
@@ -18,7 +18,7 @@ const App = () => {
   const handlePopupClose = () => {
     setShowPopup(false);
     setScanResult('');
-    setScannerKey(prev => prev + 1); // remount QRScanner
+    setScannerKey(prev => prev + 1); 
   };
 
   return (
